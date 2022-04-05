@@ -1,0 +1,51 @@
+10
+4
+ran
+5.2
+duy
+1
+5
+Bay Vien Ngoc Rong
+6.0
+Khanh
+1
+7
+Harry Potter
+4.0
+Thai Tran
+2
+6
+Doremon
+5.0
+Huyen
+2
+8
+Buoi Snag
+9.0
+Dong
+3
+9
+One Piece
+2.0
+Thai
+3
+10
+Conan
+2.5
+Thai
+2
+1
+Winner
+6.0
+Thai
+1
+11
+Thanks
+5.0
+Thai Vo
+2
+2
+Thai
+56.0
+Thai Vo
+4
