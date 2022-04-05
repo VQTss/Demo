@@ -1,0 +1,36 @@
+7
+1
+ca ba duoi
+4.0
+7.0
+Viet Nam
+2
+ca lia thia
+5.0
+7.8
+Viet Nam
+3
+ca bay mau
+6.0
+11.0
+Viet Nam
+4
+ca la han
+7.5
+15.0
+Viet Nam
+5
+ca koi
+15.5
+40.0
+Nhat Ban
+6
+ca hong ket
+36.0
+30.0
+Viet Nam
+7
+Ca Map Dau Bua
+499.999
+599.999
+Viet nam
