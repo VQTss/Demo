@@ -1,0 +1,66 @@
+[CSD201][SE16XX][WS03] ArrayList
+Các cá nhân sinh viên thực hiện nhiệm vụ sau 
+Viết chương trình quản lý cửa hàng bán cá cảnh
+Xây dựng lớp Fish: ID (int), familyName (String), importPrice (double), sellingPrice (double), origin (String)
+Khai báo ArrayList<Fish> chứa các Fish
+Viết chương trình Console, thực hiện quản lý Fish với các chức năng sau:
+1. Thêm 1 Fish mới
+	ID có thể cho tự tăng, nếu cho user tự nhập thì phải kiểm tra trùng ID
+	Cá thêm vào bị trùng khi giống familyName và origin
+	Thông báo thêm thành công
+	Hiển thị danh sách Fish sau khi thêm (Vẽ bảng như Workshop02, gồm 6 cột: No., ID, familyName, importPrice, sellingPrice, origin # giá tiền hiển thị 1 số sau dấu chấm thập phân)
+	Dừng màn hình để xem kết quả, sau khi nhấn Enter thì chương trình mới chạy tiếp tục
+2. Tìm kiếm Fish gần đúng theo loại cá (họ cá)
+ 	Liệt kê tất cả các Fish mà familyName có chứa search key (tìm kiếm không phân biệt hoa thường)
+	# Sử dụng phương thức contains
+	Hiển thị thông báo khi không tìm thấy và danh sách Fish khi tìm thấy
+	Dừng màn hình để xem kết quả, sau khi nhấn Enter thì chương trình mới chạy tiếp tục
+3. Tìm kiếm Fish theo giá tiền từ minPrice đến maxPrice (0 < minPrice <= maxPrice)
+	User sẽ nhập minPrice và maxPrice từ bàn phím
+	Hiển thị thông báo khi không tìm thấy và danh sách Fish khi tìm thấy
+	Dừng màn hình để xem kết quả, sau khi nhấn Enter thì chương trình mới chạy tiếp tục
+4. Cập nhật giá bán:
+	Hiển thị danh sách Fish
+	Yêu cầu nhập ID
+	*** Hiển thị thông báo khi không tìm thấy 
+	*** Nếu tìm thấy thì cho phép cập nhật giá bán
+		Nhập giá bán mới
+		Thông báo cập nhật thành công
+		Hiển thị lại danh sách Fish
+	Dừng màn hình để xem kết quả, sau khi nhấn Enter thì chương trình mới chạy tiếp tục
+5. Hiển thị danh sách Fish đang được giảm giá (sellingPrice < importPrice)
+	Hiển thị thông báo khi không tìm thấy và danh sách Fish khi tìm thấy
+	Dừng màn hình để xem kết quả, sau khi nhấn Enter thì chương trình mới chạy tiếp tục
+6. Thoát
+
+2 chức năng ẩn: đọc tập tin, và lưu vào tập tin
+- Lưu vào tập tin txt, có tên Fishs.txt
+*** Dữ liệu từ file Fishs.txt được đọc và nạp vào ArrayList ngay khi chương trình bắt đầu chạy
+*** Khi chọn chức năng 6 để thoát, chương trình tự động lưu toàn bộ ArrayList vào file Fishs.txt
+
+# Tất cả các input phải validation, khi nhập sai sẽ dùng vòng lặp để yêu cầu nhập lại cho đến khi nào đúng mới được thực hiện tiếp => không được dừng chương trình khi userInput sai.
+# English only
+# Comment phương thức và giải thuật đầy đủ (60/100 points)
+# Chương trình chạy mới chấm điểm => không chạy do lỗi cú pháp => 0 điểm
+
+Làm bài theo cá nhân, được phép nhờ nhóm + lớp debug giúp khi bị lỗi, 
+Nộp qua LMS
+#1. Happyline: 23:00 ngày 03/03/2022
+	+ Tạo tập tin Fishs.txt theo cấu trúc quy ước + nhập dữ liệu cho ít nhất 5 Fishs
+	+ Thực hiện được chức năng đọc dữ liệu từ file Fishs.txt và gán vào ArrayList<Fish>
+	+ Hiển thị được menu
+	+ Thực hiện được các chức năng: 1,5,6
+#2. Happyline: 23:00 ngày 06/03/2022
+	+ Thực hiện được các chức năng: 2,3,4
+	+ Thực hiện được chức năng lưu dữ liệu từ ArrayList<Fish> vào file Fishs.txt
+
+Menu: tự suy nghĩ
+
+Cấu trúc tập tin Fishs.txt:
+Dòng 1 lưu số lượng Fishs => N
+Cứ mỗi 5 dòng tiếp theo, sẽ lưu thông tin của 1 Fish:
+#1. ID
+#2. familyName
+#3. importPrice
+#4. sellingPrice
+#5. origin
