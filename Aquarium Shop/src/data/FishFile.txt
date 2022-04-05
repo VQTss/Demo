@@ -1,0 +1,41 @@
+8
+1
+Ca Canh
+2.3
+6.0
+Long An
+2
+Ca Map
+2.6
+5.9
+Thai Binh Duong
+3
+Ca Duoi
+4.0
+3.0
+Nha Trang
+4
+Ca Voi
+100.0
+9.5
+An Do Duong
+5
+Tom Hum
+5.6
+8.0
+Ca Mau
+6
+Ca koi
+9.0
+5.0
+Ha Noi
+7
+Ca Chep
+7.0
+6.0
+Can Tho
+8
+aaaaa
+9.0
+6.0
+Can Tho
